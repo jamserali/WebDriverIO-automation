@@ -1,0 +1,29 @@
+{
+  "android": [{
+    "appium:platformName": "Android",
+    "appium:deviceName": "Galaxy A04",
+    "appium:app": "/Users/mohammedafsar/Repository/POC/pg-wdio-cucumber/app/android/app-sg-internal-release.apk",
+    "appium:appWaitActivity": "com.allproperty.android.consumer.MainActivity",
+    "appium:appPackage": "com.allproperty.android.consumer.sg.internal",
+    "appium:appActivity": "com.allproperty.android.consumer.MainActivity",
+    "appium:noReset": true,
+    "appium:waitforTimeout": 300,
+    "appium:commandTimeout": 3000,
+    "appium:automationName": "UiAutomator2",
+    "appium:autoGrantPermissions": true
+  }],
+    "ios": [{
+      "appium:platformName": "iOS",
+      "appium:app": "/Users/mohammedafsar/Repository/POC/pg-wdio-cucumber/app/ios/app-sg-internal.app",
+      "appium:bundleId": "sg.com.propertyguru.pgsgiphone.internal",
+      "appium:newCommandTimeout": 300,
+      "appium:automationName": "XCUITest",
+      "appium:autoAcceptAlerts": true,
+      "appium:settings[snapshotMaxDepth]": 62,
+      "appium:noReset": true,
+      "appium:useJSONSource": true,
+      "appium:usePrebuiltWDA": true,
+      "appium:recordScreenshots": false
+}]
+
+}

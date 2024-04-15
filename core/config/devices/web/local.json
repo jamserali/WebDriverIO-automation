@@ -1,0 +1,68 @@
+{
+  "desktop": [
+    {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+        "args": ["--headless", "--user-agent=PG-Automation"]
+      }
+    },
+    {
+      "browserName": "firefox",
+        "moz:firefoxOptions": {
+            "args": ["--headless", "--user-agent=PG-Automation"]
+        }
+    }
+  ],
+    "mobile": [
+      {
+        "browserName": "chrome",
+        "goog:chromeOptions": {
+          "mobileEmulation": {
+            "deviceName": "iPhone X"
+        }
+      }
+      },
+      {
+        "browserName": "chrome",
+        "goog:chromeOptions": {
+          "mobileEmulation": {
+            "deviceName": "Galaxy S5"
+          }
+        }
+      },
+      {
+        "browserName": "chrome",
+        "goog:chromeOptions": {
+          "mobileEmulation": {
+            "deviceName": "Nexus 6P"
+          }
+        }
+      }
+    ],
+    "tablet": [
+        {
+        "browserName": "chrome",
+        "goog:chromeOptions": {
+          "mobileEmulation": {
+            "deviceName": "iPad"
+          }
+        }
+        },
+        {
+          "browserName": "chrome",
+          "goog:chromeOptions": {
+            "mobileEmulation": {
+              "deviceName": "iPad Pro"
+            }
+          }
+        },
+        {
+          "browserName": "chrome",
+          "goog:chromeOptions": {
+            "mobileEmulation": {
+              "deviceName": "Surface Duo"
+            }
+          }
+        }
+    ]
+}

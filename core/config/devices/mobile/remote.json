@@ -1,0 +1,51 @@
+{
+  "android": [
+    {
+      "platformName": "android",
+      "deviceName": "Pixel 3",
+      "platformVersion": "9",
+      "app": "ddd",
+      "tunnel": true,
+      "tunnelName": "fintech",
+      "autoGrantPermissions": true,
+      "autoAcceptAlerts": true,
+      "isRealMobile": true
+    },
+    {
+      "platformName": "android",
+      "deviceName": "Pixel 2",
+      "platformVersion": "9",
+      "app": "ddd",
+      "tunnel": true,
+      "tunnelName": "fintech",
+      "autoGrantPermissions": true,
+      "autoAcceptAlerts": true,
+      "isRealMobile": true
+    }
+  ],
+
+    "ios": [
+        {
+        "platformName": "ios",
+        "deviceName": "iPhone 11",
+        "platformVersion": "13.3",
+        "app": "ddd",
+        "tunnel": true,
+        "tunnelName": "fintech",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true,
+        "isRealMobile": true
+        },
+        {
+        "platformName": "ios",
+        "deviceName": "iPhone 8",
+        "platformVersion": "13.3",
+        "app": "ddd",
+        "tunnel": true,
+        "tunnelName": "fintech",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true,
+        "isRealMobile": true
+        }
+    ]
+}

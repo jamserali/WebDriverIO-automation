@@ -1,0 +1,10 @@
+{
+  "api": [
+    {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+        "args": ["--headless", "--user-agent=PG-Automation"]
+      }
+    }
+  ]
+}

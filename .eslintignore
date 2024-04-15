@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+
+# env file
+.env
+
+# code editor
+.vscode/
+.idea/
+
+dist/
+test-results/

@@ -1,0 +1,558 @@
+ConsumerLoginCredentials:
+  userName: automation.consumer@propertyguru.com
+  userid: '16054759'
+  trackingId: b0bdca63-4c9f-49f6-86fb-5349e1fe8cc6
+  legacyId: '123456'
+  fullName: Automation Consumer
+  firstName: Automation
+  lastName: Consumer
+  phone: '+65-88884443'
+
+MobileNumberVerification:
+  mobileNo: '88884444'
+
+SearchFilter:
+  MRT: 'Search by MRT'
+  HDB: 'Search by HDB Estate'
+  District: 'Search by District'
+  Residential: 'Residential'
+  Commercial: 'Commercial'
+
+MrtSearchModal:
+  Title: Search By MRT
+
+ListingUrl:
+  listing: listing
+
+ListingActions:
+  shortlist: Shortlist
+  share: Share
+  unshortlist: Unshortlist
+  report: Report
+  hide: Hide
+  restore: Restore
+  report_reasons:
+    misleading: Misleading
+    problem_with_listing: Problem with listing
+  report_sub_reasons:
+    inaccurate_price: Inaccurate price
+    inaccurate_size: Inaccurate size
+    fake: Fake
+    duplicate: Duplicate
+  hide_reasons:
+    notRelevant: Not relevant to me
+    alreadyViewed: Already viewed
+  feedback_thanks_msg: Thank you for your feedback!
+  feedback_restore_msg: This listing will now be visible on your search results.
+  feedback_already_hidden_msg: You already hid this listing.
+  manage_hidden_listing: Manage Hidden Listings
+  feedback_already_reported_msg: You reported this listing
+  listing_hidden: Listing Hidden
+
+PageUrlSnippet:
+  saleUrl: property-for-sale
+  rentUrl: property-for-rent
+  property: property
+  for-sale: sale
+  for-rent: rent
+  sale-intent: sale
+  rent-intent: rent
+  agentDirectory: property-agent-directory
+  commercialSaleURL: /find-commercial-properties/property-for-sale
+  commercialRentURL: /find-commercial-properties/property-for-rent
+  saleUrlPathWithLocale: /property-for-sale
+  rentUrlPathWithLocale: /property-for-rent
+  newProjectLaunchUrl: /new-project-launch
+  userProfile: user/profile
+  projectSearch: /at-test-
+  hdbDirectory: /singapore-property-listing/hdb
+  hdbEstate: /singapore-property-listing/hdb/bedok
+  hdbStreet: /singapore-property-listing/hdb/bedok/bedok-central_102422
+
+LoginModal:
+  title: Welcome to PropertyGuru
+  contact_agent_description: Please verify your identity by logging in or creating an account with us. This will also help increase your chances of response from agents.
+
+ListingEnquiry:
+  success_title: Your enquiry was successfully submitted
+  success_desc: Property Agent will get back to you shortly.
+
+AgentDetailsEnquiry:
+  success_title: We’ve sent your enquiry to the agent
+  success_desc: They will get back to you soon.
+
+ListingDetails:
+  faq_count: 5
+  location_tabs:
+    commute: Commute
+    school: Schools
+    family: Family living
+    lifestyle: Lifestyle
+
+Facebook:
+  username: social.media@propertyguru.com.sg
+
+SearchComponents:
+  searchBarDefaultText: Search enquirer name, email or listing
+  searchListingText: Search Listing
+  searchListingTextInBox: |-
+    Start typing listing name or listing id
+    to search...
+  searchEnquirerText: Search Enquirer
+  searchEnquirerTextInBox: |-
+    Start typing enquirer name, email or
+    phone number to search...
+  randomText: xhjwns
+  noMatchFound: |-
+    No matches found
+
+nonActiveListing:
+  EXP:
+    integration: 22325743,21257205,211691,24621052,24629175,24343170,24629166,24629160,24362703,24425313
+    staging: 22325743,21257205,24630716,24630712,24630710,24630706,24630444,24630700,24630698,24630696
+    prod: 22325743,24630444,24630689,20200287,24042311,24265629,24510480,24603183,24603240,24525631
+  DEL:
+    integration: 24651234,24651245,24650824,24650822,24650821,24650820,24650801,24650819,24650817,24650816
+    staging: 24649131,24649130,24649129,24649128,24649127,24649126,24649125,24649124,24649123,24649122
+    prod: 24609388,24688673,21295394,24564498,24378645,24509814,23786917,24538987,21719475,24688327
+
+Fintech:
+  HomePageUrl: '.propertyguru.com.sg/mortgage'
+  leadEnquiryDataPath: '/tests/steps/test-data/fintech/lead-enquiry'
+  LDPHomeFinance:
+    defaultLoanPercentage: 75
+    defaultInterestRate: 4
+    defaultLoanTenure: 30
+
+  DigitalAPP:
+    homePageEstimatedTimelineTitle: Your estimated application timeline
+    homePageEstimatedTimeLoanSecuredText: Mortgage loan secured
+    homePageEstimatedTimeLoanSubmittedText: Lakshmi Bhandaram will do a check on your application to make sure we're good to go before submission.
+    homepageEstimatedTimelineSubmittedApplicationSubtext: Receive approval status of your mortgage application at fintech-qa@propertyguru.com.sg.
+    homepageEstimatedTimelineGetLoSubtextFormal: Once approved, receive a LO from the bank so you can exercise your Option to Purchase (OTP).
+    homepageEstimatedTimelineGetLoSubtextAip: Once approved, receive a LO from the bank so you can exercise your OTP.
+    homePagePackageHeaderTitle: Your Mortgage Application
+    homePagePackageName: DBS 3M SORA Package
+    homepagePackageHeaderTime: 20 mins
+    Form:
+      sideBarHomeTitle: Get started on your mortgage application
+      sideBarHomeApplicantName: "Hi,\n' + 'Automation"
+      sidebarAdvisorTitle: Your Mortgage Expert is ready to help
+      sidebarAdvisorName: Lakshmi Bhandaram
+      sidebarAdvisorPhone: 92365584
+      footerSecureDataText: We will never sell or inappropriately share your personal data.
+    LoginModal:
+      loginCheckListItem1: Login to start your mortgage application online
+      loginCheckListItem2: Step-by-step guidance
+      loginCheckListItem3: Secure, encrypted data-sharing
+      loginCheckListItem4: Auto-save and continue anytime
+      loginCheckListItem5: Bank official application
+      loginModalHeader: "Begin your online\nMortgage Application"
+      loginModalMarketingConsent: Please send me PropertyGuru Finance updates, monthly newsletters and partner offers.
+      loginModalPDPAConsent: By proceeding, I agree to PropertyGuru's Terms and Conditions and Privacy Policy including the collection, use, disclosure, processing, storage and handling of my personal information in relation to my loan and associated products.
+      otpModalContent: "We've just sent the code to +65 8888 ****.\nPlease enter the code here to continue your login."
+      otpModalEmailContent: "We've just sent the code to f********a@propertyguru.com.sg.\nPlease enter the code here to continue your login."
+
+  LRP:
+    enquiryModalSuccessTitle: "Thank you!\nOur Mortgage Expert is checking your enquiry."
+    enquiryModalSuccessDesc: 'An expert will call you within 1 business day.'
+    lowestInterestRateTitle: We recommend these packages with the lowest interest rates for you.
+    promotionTitle: 'We recommend these packages with special promotions for you.'
+    packageDetailsDisclaimer: "Figures on this page may be rounded up or down to the nearest dollar to make them easier to compare. Mortgage rates shown may differ from those offered by a lender when you apply for your mortgage and, in some instances, may also vary based on your credit or payment history. PropertyGuru and its affiliates accept no liability for any change in mortgage rates, which are entirely at a lender's discretion."
+    packageDetailsFooterDesc: No strings attached. No hidden fees.
+    advisorContactTitle: Not sure which loan is right for you?
+    advisorContactDesc: Our Mortgage Experts help you unpack the T&Cs to find the best fit. No strings attached. No hidden fees.
+    advisorBannerDesc: "Our Mortgage Experts can help you unpack\nthe T&Cs to find the best fit.\nNo strings attached. Completely free."
+    advisorBannerButton: Let Us Help
+    advisorBannerOnline: advisors online
+
+  SGPrequal:
+    landingPageTitle: '👋🏻 Hello,'
+    onboardingSubTitle: Begin your digital mortgage journey.
+    onboardingText: We'll ask more about your home search, income & credit to provide personalised financial advice.
+    enquiryFormSuccessTitle: We've received your enquiry
+    enquirySuccessImageTitle: Advisors
+    sgMobileNumber: '89765678'
+    name: Automation Consumer
+    pqLandingPageTitle: Proceed with your Pre-Qualification
+    pqLandingPageSubTitle: by PropertyGuru Finance Experts
+    pqBenefitsCheckListTexts:
+      ['No fees, absolutely free', 'Personalised instant results', 'Get faster viewings with agents']
+    pqLandingFooterText: 'Only 8 minutes to complete!'
+    pqPrivacyPolicyPageTitle: "Your data is safe with us.\nPropertyGuru,"
+    pqPrivacyPolicyPageFooterText: Please send me PropertyGuru Finance updates, monthly newsletters and partner offers.
+    pqPrivacyPolicyFeatureList:
+      [
+        'Encrypts and secures your data.',
+        'Complies with the PDPA and applicable data protection laws.',
+        'Is ISO 27001 certified for information security.',
+      ]
+    creditResultCardTitle: Great! Your credit meter looks all good based on your inputs.
+    gaugeMeterTitle: Excellent
+    creditMeterInfoToolTipText: This is not a formal credit check and is an estimation only based on the inputs you have provided. We have not accessed your credit history from Credit Bureau Singapore.
+    prequalDataPath: '/tests/steps/test-data/fintech/sg-prequal-data-seed'
+    declarationText: "I declare that all the information provided is accurate to the best of my knowledge. I accept that any error in my inputs could lead to an inaccurate estimation and that my actual eligibility is subject to the bank's discretion. I acknowledge that PropertyGuru and its affiliates will not be liable for any discrepancies and/or losses that may arise in connection with the information I have provided."
+    resultPageTitle: "Your Pre-Qualification\nreport is ready."
+    resultPageSubTitle: A copy of your report has been sent to <tempEmail>.
+    leadEnquirySuccessMessage: Thank you, a mortgage expert will be in touch with you within 1 business day
+    loanTenure: '35'
+    loanTenureTooltip: 'Based on your inputs, your maximum loan tenure is <tenure> years. This tenure will give you the maximum possible loan.'
+    basicDetailsSubText: Initiate assessment by giving us details on your individual scenario.
+    mainIncomeExpenseSubText: Assess your eligibility by giving us a full picture of your finances.
+    jointIncomeExpenseSubText: A joint applicant can boost your eligibility by sharing the mortgage responsibility
+
+  SelfServeFormal:
+    selfServeDataPath: '/tests/steps/test-data/fintech/self-serve-formal'
+    applicationSuccessMessage: Self-Serve Application Successful
+
+AgentAccountV2:
+  learnMoreMessage: Do not share your account with others
+  learnMoreLink: Learn More
+  updatePasswordMessage: You are encouraged to update to a new password every 90 days for security reasons.
+  accountInformation: Account Information
+  securityAndLogin: Security and Login
+  personalInformation: Personal Information
+  contactInformation: Contact Information
+  notifications: Notifications
+  title: Title
+  firstName: First Name
+  lastName: Last Name
+  birthday: Birthday
+  email: Email
+  primaryNo: Primary No. / WhatsApp
+  secondaryNo: Secondary No.
+  fax: Fax
+  streetAddressLine1: Street Address Line 1
+  streetAddressLine2: Street Address Line 2
+  postalCode: Postal Code
+  city: City
+  country: Country
+  ldmNotification: Notify me of new leads via email and app notification
+  accountInformationPanel: ACCOUNT INFORMATION
+  securityAndLoginPanel: SECURITY AND LOGIN
+  personalInformationPanel: PERSONAL INFORMATION
+  contactInformationPanel: CONTACT INFORMATION
+  notificationsPanel: NOTIFICATIONS
+  adminTools: Admin Tools
+  adminToolsPanel: ADMIN TOOLS
+  syncToNetsuiteID: Sync to NetsuiteID
+  account: Account
+  status: Status
+  accountRule: Account Rules
+  subscription: Subscription
+  subscriptionEndDate: Subscription End Date
+  listing: Listing
+  concurrentListings: Concurrent Listings
+  allowUnlimitedRepost: Allow unlimited repost
+  monthlyActivationsRemaining: Monthly Activations Remaining
+  credits: Credits
+  purchasedOneTimeCredits: Purchased One Time Credits
+  primeCredits: Prime Credits
+  payment: Payment
+  bulkOrder: Bulk Order
+  linkToBulkOrder: Link to Bulk Order
+  loyalty: Loyalty
+  loyaltyStartDate: Loyalty Start Date
+  agentProfile: Agent Profile
+  showAgentProfile: Show Agent Profile
+  analyticsReports: Analytics Reports
+  downloadLimits: Download Limits
+  newTag: New
+  spamFilter: Spam Filter
+
+SellerLeadsCredentials:
+  userName: sellerleadsqa@propertyguru.com
+  fullName: SellerLead User
+  mobileNo: '88880000'
+
+DeveloperConsumerLoginCredentials:
+  userName: testing@allproperty.com.sg
+  fullName: testing testing user
+  phone: '+65-88884444'
+
+AgentDashboard:
+  LeadManagementPopoverheading: 'Introducing Lead Management'
+  LeadManagementPopoverDescription: 'Manage all your leads in one place and get access to exclusive insights to help you prioritise.'
+  LeadManagementPopoverTryNowText: Try It Now
+  LeadManagementPopoverTryNowHref: /lead-management
+  leadsHeading: Leads
+  leadsWidgetSubHeading: Latest Unread
+  noLeadsHeading: You have no unread leads
+  noLeadsSubHeading: Try our Value-Add Tools to improve your listing exposure!
+  noLeadsGoToListingText: Go to Listings
+  noLeadsGoToListingUrl: /v2/listing_management
+  RatingAndReviewHeading: Your Agent Profile
+  RatingAndReviewSubHeading: Your Ratings & Reviews
+  RatingAndReviewInviteText: Invite your customers to leave you a review
+  RatingAndReviewUrl: /agent-feedback
+  ReviewCount10: 10 reviews
+  ReviewCount0: 0 reviews
+  ReviewCount1: 1 review
+  RatingFor10Reviews: 4.0/5
+  RatingFor0Reviews: 0/5
+  RatingFor1Reviews: 3.9/5
+  financeHeading: PropertyGuru Finance
+  financeSubHeading: Home Loan Referral
+  financeLogo: logo_pg_finance_circle_white.svg
+  financeReferText: Referred Home Loans
+  financeTipText: Find out more about our Home Loan Referral Programme and start earning more rewards.
+  financeStartText: Get Started
+  moreAboutFinanceText: More about PropertyGuru Finance
+  moreAboutFinanceUrl: https://www.agentofferings.propertyguru.com.sg/homeloanreferral
+  adCreditBalanceText: Ad Credits Balance
+  topUp: Top Up Now
+  primeCreditBalanceText: Prime Credits Balance
+  adCreditTopUpUrl: /self_serve
+  adCreditSummaryUrl: /billing/ad-credits/summary
+  primeCreditTopUpUrl: /self_serve#/?pc=1
+  primeCreditSummaryUrl: /billing/prime-credits/summary
+  askGuruSubHeading: AskGuru Questions (last 30 days)
+  askGuruTipText: Be a trusted property expert and attract leads by responding to enquiries from property seekers
+  askGuruLinktext: Explore AskGuru
+  askGuruLink: /ex_questions
+  fastKeySubHeading: Regional FastKey Projects
+  fastKeyTipText: Discover 500+ regional projects & agent-exclusive offers from developers
+  fastKeyLinkText: Explore FastKey Projects
+  fastKeyLink: /fastkey
+  fastKeyCount: 500+
+  anouncementHeading: Lead Management Quiz
+  announcementPostedDate: 18 Sep 2023 00:00
+  announcementSubHeading: Join our exclusive quiz for a sneak peek and prizes!
+  anouncementLink: /announcement
+  anouncementLinkText: More Announcements
+  createListingText: + Create Listing
+  createListingTextMobile: Create Listing
+  createListingUrl: /create-listing
+  createUnitListingText: Unit Listing
+  createProjectListingText: Project Listing
+  createProjectListingUrl: /create-project-listing
+  performanceHeadingText1Listing: Listings With Performance Below Average (1)
+  viewAllButtonText: View All
+  viewAllButtonLink: /v2/listing_management#ACT,PERF_BELOW_AVG
+  performanceDataLink: /v2/create-listing/summary/39089047
+  emptyPerformanceHeading: Listings With Performance Below Average (0)
+  emptyPerformanceSubHeading: All your listings are performing above average. Keep it up!
+  listingStatusHeadingText: Your Listings Summary
+  activeListingText: Active Listings
+  activeListingLink: /v2/listing_management#ACT
+  activeListingCount: '23'
+  boostListingText: Boosted Listings
+  boostListingLink: /v2/listing_management#ACT,BOOST
+  boostListingCount: '4'
+  promotedListingText: Promoted Listings
+  promotedListingLink: /v2/listing_management#ACT,PROMOTED_LISTING
+  promotedListingCount: '1'
+  turboListingText: Turbo Listings
+  turboListingLink: /v2/listing_management#ACT,TURBO
+  turboListingCount: '3'
+  suspendedListingText: Suspended Listings
+  suspendedListingLink: /v2/listing_management#SUSP
+  suspendedListingCount: '18'
+  partner360Text: Partner360 Rewards
+  viewRewardsText: View Rewards
+  popupRewardsText: Reward Points
+  earnPointsText: How to Earn Points?
+
+TestAccounts:
+  defaultAccount1:
+    userName: qaagent1@propertyguru.com
+  defaultAccount2:
+    userName: qaagent2@propertyguru.com
+  defaultAccount3:
+    userName: qaagent3@propertyguru.com
+    agentId: '438420'
+  agentnet-ldm1:
+    userName: qaagent1@propertyguru.com
+  agentnet-default1:
+    userName: automationqaagent1@propertyguru.com
+    agentId: '16156435'
+    userTrackingId: '3510e9e0-bc52-42df-bbea-d184749073a1'
+  agentnet-developer:
+    userName: qacorporateservices@propertyguru.com
+    fullName: testing testing
+    phone: '+65-88884443'
+  agentnet-selfserve1:
+    userName: selfserveadcreditstest1@propertyguru.com
+    agentId: 14125011
+  agentnet-selfserve2:
+    userName: selfserveadcreditstest2@propertyguru.com
+    agentId: 14125017
+  agentnet-selfserve3:
+    userName: selfserveadcreditstest3@propertyguru.com
+    agentId: 14125039
+  admin-default1:
+    userName: qa-sg@propertyguru.com.sg
+    userId: '365675'
+  agentnet-immediateorderactivation:
+    agentId: '63164'
+    AgentEmail: immediateactivation@propertyguru.com
+  agentnet-delayedactivation:
+    agentId: '15207903'
+    AgentEmail: delayedactivation@propertyguru.com
+  agentnet-renewalaccount:
+    agentId: '15208644'
+    AgentEmail: renewalaccount@propertyguru.com
+
+SelfServe:
+  AdCreditProduct1: 100 Ad Credits
+  AdCreditProduct2: 2000 Ad Credits
+  PrimeCreditProduct1: 101 Prime Credits
+  PrimeCreditProduct2: 21 Prime Credits
+  $0Product: FOC 100 Ad Credits
+  AdCreditBundleProduct1: 'Short Validity Credits Promo: 5,100 Ad Credits + 70 Prime Credits'
+  AdCreditBundleProduct2: 100 Ad Credits
+  GSTPercentage: 0.09
+
+FintechIPASection:
+  resultTitle: Thank you! We will reach out to you soon.
+  HeaderTitle: Be sure of your budget, as you search for homes.
+  HeaderSubTitle: In-Principle Approval (IPA)
+  HeaderItemTitles: Confirm your loan eligibility from a bank.::Continue home search with budget clarity.::Make an offer with peace of mind.
+
+FintechEnquireSection:
+  LoanLandingBankSectionTitle: 'The best mortgage rates from all major banks in Singapore'
+
+AccountProcessor:
+  Premium: 5
+  ListingLimit: 60
+
+BillingOrderProducts:
+  ACProductCode: PG_1237
+  ACProductName: 'PG02R3246 Ad Credit'
+  CLProductCode: DC_0001
+  CLProductName: 'PG02C4326S Concurrent Listing'
+  PCProductCode: PC_2022
+  PCProductName: 'PG04P5606S PGSG Prime Credit'
+  AdCreditsExternalProductID: '8413'
+  PrimeCreditsExternalProductID: '15030'
+  ConcurrentListingExternalProductID: '12292'
+  TrialProductCode: SB_0000
+  TrialProductName: 'PG901L053 Listing Subscription (2 Mths) - Trial Package Only'
+  StandardPackage_ProductCode: SB_0007
+  StandardPackage_ProductName: 'PG01L4890S Listing Subs : STANDARD : New (12 Mths)'
+  AdvanceProductCode: SB_0008
+  AdvanceProductName: 'PG01L4891S Listing Subs : ADVANCE : New (12 Mths)'
+  PremierProductCode: SB_0009
+  PremierProductName: 'PG01L4892S Listing Subs : PREMIER : New (12 Mths)'
+  BusinessProductCode: SB_0010
+  BusinessProductName: 'PG01L4893S Listing Subs : BUSINESS : New (12 Mths)'
+  BundleAdCreditsProductName: 'PG02B3249 Bundle Ad Credit (1 Credit)'
+  BundlePrimeCreditsProductName: 'PG02B5697S Bundle Prime Credit (1 Credit)'
+
+AdProducts:
+  Turbo: 'turbo'
+  Boost: 'boost-v2'
+  TransactionDetailsResponseSchemaPath: './tests/steps/test-data/schema-test-data/ads-products/get-transaction-details.json'
+  InvalidAgentId: '429717'
+
+PromotedListing:
+  DesktopWebOrigin: 'promoted-listing-desktop-web-promoted-listings'
+  MobileWebOrigin: 'promoted-listing-mobile-web-promoted-listings'
+  MobileAppOrigin: 'promoted-listing-mobile-app-listing-management'
+  GetCampaignDetailsResponseSchema: './tests/steps/test-data/schema-test-data/promoted-listing/get-campaign-details.json'
+  Promote: 'Promote'
+  ViewDetails: 'View details'
+  Promoted: 'Promoted'
+  ThisListing: 'this listing'
+  PromotionPaused: 'Promotion Paused'
+  InsufficientCredits: "Insufficient credits.\nView details"
+  EndsToday: "ends today.\nView details"
+  CampaignEndInDays: "<days> days left.\nView details"
+  CampaignStoppedDueToInsuffCreditsMessage: "Your Promoted Listing campaign for Listing {0} has stopped on {1}, due to insufficient Prime Credits.\n\nTop up your Prime Credits and activate your Promoted Listing campaign again."
+  LowQualityScoreWarningMessage: 'Listing score must be at least 95% to activate'
+  CampaignStoppedAlertTitle: 'Campaign has Stopped'
+  InsufficientBalance: 'insufficientBalance'
+  Terminated: 'terminated'
+  Stopped: 'stopped'
+  ListingDeactivated: 'listingDeactivated'
+  StatisticsNotAvailable: 'Statistic is not available yet.'
+  ListingPerformance: /listing_performance/<listingId>
+
+ListingPerformance:
+  Views: 'Number of times users clicked on your listing.'
+  Leads: 'Number of confirmed contacts.'
+  Impressions: 'Number of times your listing was viewed by Users'
+
+WatchRateAlerts:
+  AddWRASuccessMessage: Preference created successfully
+  AddWRADuplicateMessage: Preference exists for
+  UpdateDeactivatedWRAMessage: Preference doesn't exist for
+  UpdateWRASuccessMessage: Preference updated successfully
+  criteria:
+    Freq: Monthly
+    PropertyType: Private
+    PropertyStatus: Completed
+    LoanType: New Purchase
+    LoanAmount: S$ 650,000
+    LoanTenure: '30'
+    InterestRateType: Any
+    Banks: All Banks
+  Packages:
+    FilterCriteria: loanAmount=650000&loanTenure=30&propertyStatus=Completed&propertyType=Private&loanType=New+Purchase
+
+ValidAgentIds: 430725, 598139, 26948, 260008, 11148824, 598139, 400979, 456970, 191763
+
+AgentCredentials:
+  defaultAccountRule: PREMIUM
+
+ListingManagement:
+  emptySearchResultMessage: Sorry - you don't have any listings that match those criteria. Try expanding your search
+
+UniqueListingCriteria:
+  LDP:
+    report:
+      desktop: 1
+      mobile: 2
+    hide:
+      desktop: 3
+      mobile: 4
+  SRP:
+    hide:
+      desktop: 11
+      mobile: 12
+    shortlist:
+      desktop: 1
+      mobile: 2
+GA4:
+  trackingId: G-0HGK3QZS7D
+  trackingIdCg: G-RM9KWZJ48B
+
+Transaction:
+  PropertyTypeParam:
+    CONDO: EXECUTIVE_CONDOMINIUM
+    HDB: HDB
+    LANDED: TERRACE_HOUSE
+
+ProfileDeletion:
+  SuccessMsg: Your request was processed successfully.
+  EmailUsedMsg: Sorry, this email address cannot be used right now.
+
+AimeWarning:
+  borderDetected: Border detected in the photo, please remove.
+  faceDetected: Face detected in the photo, please remove.
+  collageDetected: Collage detected in the photo, please remove.
+  QrDetected: QR code detected in the photo, please remove.
+
+CommunicationAPI:
+  agentRegistrationVerification: http://www.propertyguru.com.sg/en/agent-register-verification?uid=42b53ccc-a63f-4c0f-b51b-05898e5eac16&code=dVKaZYbvMAPNDpX7xY6cXx4wS6DSt9gh
+
+ListingLocationPage:
+  postalCode6digitErrorMessage: Postal code must consist of 6 digits.
+  noPostalCodeEnteredErrorMessage: Postal code can not be empty. Type one or select one from dropdown.
+  invalidPostalCodeErrorMessage: This postal code is not in our database yet!
+  approximateLocationText: Show an approximate location to property seekers
+
+AgentIdsWithTransactions: 10390,10613717,11411615,16479
+
+ListingSuspensionPage:
+  SuspendListingComment: Listing is suspended in Automation by API
+  AgentAppealComment: Agent Appealed for Listing Activation in Automation by API
+  AgentWithdrawAppealComment: Agent Withdrawn Appeal for Listing Activation in Automation by API
+  AgentComment: Agent Comment for Listing Activation in Automation by API
+  AdminComment: Admin Comment for Listing Activation in Automation by API
+  AdminDenyAgentAppealComment: Admin Deny agent appeal on Listing Activation in Automation by API
+  AdminReactivateListingComment: Admin reactivated the listing in Automation by API
+
+AgentNetLoginDetails:
+  loginText: Log in to AgentNet
+  bottomText: Don't have an account?

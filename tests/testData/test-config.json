@@ -1,0 +1,110 @@
+{
+  "sg": {
+    "name": "Singapore",
+    "phoneCode": "+65",
+    "baseAddress": "propertyguru.com.sg",
+    "admin": "admin",
+    "agent": "agentnet",
+    "language": "en",
+    "locale-config": {
+      "sg": {
+        "url_mapping": "",
+        "locale": "en",
+        "agentOfferings": "agentofferings"
+      }
+    },
+    "commercial": "commercialguru.com.sg",
+    "siteCode": "pg",
+    "commercialSiteCode": "cg"
+  },
+  "my": {
+    "name": "Malaysia",
+    "phoneCode": "+60",
+    "baseAddress": "propertyguru.com.my",
+    "admin": "admin",
+    "agent": "agentnet",
+    "language": "en",
+    "locale-config": {
+      "my": {
+        "url_mapping": "",
+        "locale": "en",
+        "agentOfferings": "agentofferings"
+      },
+      "myb": {
+        "url_mapping": "bm",
+        "locale": "ms",
+        "agentOfferings": ""
+      }
+    },
+    "commercial": "",
+    "siteCode": "hg",
+    "commercialSiteCode": ""
+  },
+  "dd": {
+    "name": "Thailand",
+    "phoneCode": "+66",
+    "baseAddress": "ddproperty.com",
+    "admin": "admin",
+    "agent": "agentnet",
+    "language": "th",
+    "locale-config": {
+      "dd": {
+        "url_mapping": "",
+        "locale": "th",
+        "agentOfferings": "agentofferings"
+      },
+      "dde": {
+        "url_mapping": "en",
+        "locale": "en",
+        "agentOfferings": "agentofferings-en"
+      }
+    },
+    "commercial": "",
+    "siteCode": "dd",
+    "commercialSiteCode": ""
+  },
+  "th": {
+    "name": "Thailand",
+    "phoneCode": "+66",
+    "baseAddress": "ddproperty.com",
+    "admin": "admin",
+    "agent": "agentnet",
+    "language": "th",
+    "locale-config": {
+      "th": {
+        "url_mapping": "",
+        "locale": "th",
+        "agentOfferings": "agentofferings"
+      },
+      "the": {
+        "url_mapping": "en",
+        "locale": "en",
+        "agentOfferings": "agentofferings-en"
+      }
+    },
+    "commercial": "",
+    "siteCode": "dd",
+    "commercialSiteCode": ""
+  },
+  "id": {
+    "name": "Indonesia",
+    "phoneCode": "+62",
+    "baseAddress": "rumah.com",
+    "admin": "admin",
+    "agent": "agentnet",
+    "language": "id",
+    "locale-config": {
+      "id": {
+        "url_mapping": "",
+        "locale": "id",
+        "agentOfferings": "agentofferings"
+      }
+    },
+    "commercial": "",
+    "siteCode": "rm",
+    "commercialSiteCode": ""
+  },
+  "ipp": {
+    "name": "Malaysia"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "desktop": [
+    {
+      "browserName": "chrome",
+      "platform": "ANY",
+      "chromeOptions": {
+        "args": [
+          "--start-maximized",
+          "--disable-infobars",
+          "--disable-extensions"
+        ]
+      }
+    },
+    {
+      "browserName": "firefox",
+      "platform": "ANY",
+        "marionette": true,
+        "acceptInsecureCerts": true,
+        "moz:firefoxOptions": {
+          "args": ["--start-maximized", "--disable-infobars"]
+        }
+    }
+  ],
+  "mobile": [
+        {
+        "browserName": "chrome",
+        "platform": "ANDROID",
+        "version": "7.0",
+        "deviceName": "Android Emulator",
+        "chromeOptions": {
+            "args": [
+            "--start-maximized",
+            "--disable-infobars",
+            "--disable-extensions"
+            ]
+        }
+        }
+    ],
+  "tablet": [
+        {
+        "browserName": "chrome",
+        "platform": "ANDROID",
+        "version": "7.0",
+        "deviceName": "Android Emulator",
+        "chromeOptions": {
+            "args": [
+            "--start-maximized",
+            "--disable-infobars",
+            "--disable-extensions"
+            ]
+        }
+        }
+    ]
+}
